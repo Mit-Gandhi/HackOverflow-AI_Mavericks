@@ -113,4 +113,14 @@ npm run dev
 
 ## Screenshots
 
+### Home Page
+
 ![Home Page](https://drive.google.com/uc?id=1kYCgqDOybxI_QMLhSHZ_WNXJFdyzQfsV)
+
+### CCTV Analyzer
+
+![CCTV Analyzer](https://drive.google.com/uc?id=1BdsjhVkVrMhWtnMUJZ2HbIm-v4UU05eH)
+
+### Live Feed Monitoring
+
+![Live Feed Monitoring](https://drive.google.com/uc?id=1CzHHHnPFlNwUy4PyaEGWaxgBsA9aP_Mj)
