@@ -113,4 +113,4 @@ npm run dev
 
 ## Screenshots
 
-![Home Page](https://drive.google.com/uc?id=1HPRwcezdObM0z3ebSfi13hzTzQZaWmHW)
+![Home Page](https://drive.google.com/uc?id=1kYCgqDOybxI_QMLhSHZ_WNXJFdyzQfsV)
