@@ -56,3 +56,23 @@ cd frontend
 npm install  
 npm run dev  
 ```
+
+## System Workflow
+
+### User Authentication 
+
+/register – New users can create an account and log in.
+/login – Existing users authenticate to access the system.
+
+### Home Page
+
+/home – The dashboard provides access to all major functionalities, including CCTV analysis, live monitoring, and sketch-to-image conversion.
+
+### CCTV Footage Analysis
+
+/analyze – Users upload CCTV footage to detect and identify suspects.
+    1. The system extracts frames and detects faces using YOLOv11.
+    2. Feature vectors are extracted using InsightFace (IR-SE50).
+    3. The system compares detected faces against stored records using FAISS.
+    4. If a match is found, it returns timestamps of all occurrences and generates trimmed video clips showing only the suspect.
+/analyze/report – Users can preview and download a detailed report with suspect information, timestamps, and video evidence.
