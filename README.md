@@ -14,7 +14,7 @@ This AI-driven system enhances criminal detection by analyzing both CCTV footage
 ## Team Members
 
 1. [Mit Gandhi](https://github.com/Mit-Gandhi) 
-2. [Rishit Srivastava](https://github.com/rishitsrivastava) 
+2. [Rishit Srivastava](https://github.com/rishitsrivastav) 
 3. [Kritansh Tank](https://github.com/Kritansh-Tank)
 
 ## Tech Stack
