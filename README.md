@@ -67,39 +67,39 @@ npm run dev
 
 ### User Authentication 
 
-/register – New users can create an account and log in.
+```/register``` – New users can create an account and log in.
 
-/login – Existing users authenticate to access the system.
+```/login``` – Existing users authenticate to access the system.
 
 ### Home Page
 
-/home – The dashboard provides access to all major functionalities, including CCTV analysis, live monitoring, and sketch-to-image conversion.
+```/home``` – The dashboard provides access to all major functionalities, including CCTV analysis, live monitoring, and sketch-to-image conversion.
 
 ### CCTV Footage Analysis
 
-/analyze – Users upload CCTV footage to detect and identify suspects.
+```/analyze``` – Users upload CCTV footage to detect and identify suspects.
 1. The system extracts frames and detects faces using InsightFace.
 2. Feature vectors are extracted using InsightFace (IR-SE50).
 3. The system compares detected faces against stored records using FAISS.
 4. If a match is found, it returns timestamps of all occurrences and generates trimmed video clips showing only the suspect.
    
-/analyze/report – Users can preview and download a detailed report with suspect information, timestamps, and video evidence.
+```/analyze/report``` – Users can preview and download a detailed report with suspect information, timestamps, and video evidence.
 
 ### Live Surveillance Monitoring
 
-/live – The system connects to live surveillance feeds to detect suspects in real-time.
+```/live``` – The system connects to live surveillance feeds to detect suspects in real-time.
 1. Faces are identified continuously and compared with database records.
 2. If a suspect is detected, their name, location, and match confidence are displayed.
 3. Alerts are triggered via Firebase Cloud Messaging (FCM) for immediate action.
 
 ### Sketch-to-Image Generation
 
-/sketch – Converts a monotone sketch into a realistic colorized image using a GAN-based model.
+```/sketch``` – Converts a monotone sketch into a realistic colorized image using a GAN-based model.
 1. This feature enhances low-quality evidence and improves face recognition performance.
 
 ### Database Storage & Management
 
-/records – Stores and manages police records for suspect identification.
+```/records``` – Stores and manages police records for suspect identification.
 1. The system maintains a structured database of face feature vectors, names, and locations in Firebase Firestore.
 2. This allows cross-referencing and information sharing between different law enforcement agencies.
 
@@ -117,10 +117,22 @@ npm run dev
 
 ![Home Page](https://drive.google.com/uc?id=1kYCgqDOybxI_QMLhSHZ_WNXJFdyzQfsV)
 
+
 ### CCTV Analyzer
 
 ![CCTV Analyzer](https://drive.google.com/uc?id=1BdsjhVkVrMhWtnMUJZ2HbIm-v4UU05eH)
 
+
 ### Live Feed Monitoring
 
 ![Live Feed Monitoring](https://drive.google.com/uc?id=1CzHHHnPFlNwUy4PyaEGWaxgBsA9aP_Mj)
+
+
+### Sketch to Color Image
+
+![Live Feed Monitoring](https://drive.google.com/uc?id=12mOG3yrD20zNT4TjnoyRXCtqM8JbHSQE)
+
+
+### Storing Database
+
+![Storing Database](https://drive.google.com/uc?id=1zNHj1ruIsQ5EZI5HOnNcdHEpOGhd87jm)
