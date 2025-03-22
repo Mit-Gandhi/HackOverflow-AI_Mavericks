@@ -38,13 +38,21 @@ cd AI-Criminal-Detection
 
 ### Backend Setup
 
-Install required dependencies:
+#### Install required dependencies:
 
 ```
 pip install -r backend/requirements.txt
 ```
 
-Run the FastAPI server:
+#### Run the FastAPI server:
 ```
+cd backend
 uvicorn backend.main:app --reload
+```
+
+#### Frontend Setup:
+```
+cd frontend  
+npm install  
+npm run dev  
 ```
