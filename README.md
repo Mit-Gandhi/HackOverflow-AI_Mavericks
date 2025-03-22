@@ -14,7 +14,7 @@ This AI-driven system enhances criminal detection by analyzing both CCTV footage
 ## Team Members
 
 1. [Mit Gandhi](https://github.com/Mit-Gandhi) 
-2. [Rishit Srivastava](https://github.com/Kritansh-Tank) 
+2. [Rishit Srivastava](https://github.com/rishitsrivastava) 
 3. [Kritansh Tank](https://github.com/Kritansh-Tank)
 
 ## Tech Stack
@@ -56,7 +56,7 @@ cd backend
 uvicorn backend.main:app --reload
 ```
 
-#### Frontend Setup:
+### Frontend Setup:
 ```
 cd frontend  
 npm install  
@@ -110,3 +110,7 @@ npm run dev
 3. Retrieve timestamps & suspect clips → Download reports for further investigation.
 4. Convert sketches to images → Enhance face recognition from incomplete evidence.
 5. Manage stored records → Maintain an updated police database for future references.
+
+## Screenshots
+
+![Home Page](https://drive.google.com/uc?id=1HPRwcezdObM0z3ebSfi13hzTzQZaWmHW)
