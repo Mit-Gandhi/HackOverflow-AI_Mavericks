@@ -1,4 +1,4 @@
-# AI-Powered Criminal Detection System
+# AI-Powered Criminal Detection System (CrimeVision AI)
 
 ## Overview
 
