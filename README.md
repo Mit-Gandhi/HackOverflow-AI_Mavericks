@@ -133,6 +133,3 @@ npm run dev
 ![Live Feed Monitoring](https://drive.google.com/uc?id=12mOG3yrD20zNT4TjnoyRXCtqM8JbHSQE)
 
 
-### Storing Database
-
-![Storing Database](https://drive.google.com/uc?id=1zNHj1ruIsQ5EZI5HOnNcdHEpOGhd87jm)
